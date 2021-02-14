@@ -8,7 +8,7 @@ int main()
     cout << "Hello World!" << endl;
     StringFormat sf;
     std::string output;
-    output = sf.format("Hi! My name is %s. %s C++ %s", "Andrey", "I learning", "and Java");
+    output = sf.format("SELECT * FROM %s WHERE t1=%s AND name=%s", "tableName", "123123", "and Java");
 
     std::cout << output << std::endl;
 
